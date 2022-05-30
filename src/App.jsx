@@ -30,7 +30,6 @@ function App() {
       }
     });
     setEmptyContainer([...empty_continer, ...singlecolor]);
-
     const filtered = color.filter((e, i) => {
       return i != inputNum - 1;
     });
