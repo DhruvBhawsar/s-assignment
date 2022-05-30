@@ -16,11 +16,11 @@ function App() {
   const [inputNum, setInputNum] = useState("");
   const [empty_continer, setEmptyContainer] = useState([]);
   const [color, setcolors] = useState([
-    "#d5e8d4",
+    "#a3b1a2",
     "#ffe6cd",
     "#6a00ff",
-    "#d9e8fb",
-    "#e2d5e7",
+    "#c1cddd",
+    "#deb9ec",
   ]);
 
   const handleShoot = (inputNum) => {
