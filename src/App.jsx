@@ -41,6 +41,8 @@ function App() {
     <div className="App">
       <div className="center_ver_hor">
         {/* <form action="" onSubmit={handleShoot}> */}
+        <h3>Enter the bolloon Number </h3>
+        <br /> <br />
         <input
           type="number"
           onChange={(e) => {
